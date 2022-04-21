@@ -115,7 +115,7 @@ formulaire.addEventListener('submit', function(e){
         console.log(checkbox[i].value);
         checkbox[i].parentNode.setAttribute("data-error-visible", false);
         break;
-        // le break me sert a ce que si ce soit vrai, ( donc si une ville et bien selectionné) on force l'arret a cet condition la, donc le style reviens a la normal
+        // le break me sert a ce que si ce soit vrai, ( donc si une ville et bien selectionné) on force l'arret a cet boucle(condition) la, donc le style reviens a la normal
       }
     }
     if(!condition1.checked){
