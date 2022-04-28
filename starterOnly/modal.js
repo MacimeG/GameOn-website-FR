@@ -49,7 +49,8 @@ let condition2 = document.querySelector('#checkbox2');
    
 
 formulaire.addEventListener('submit', function(e){
-    // e.preventDefault me sers a ne pas validé le formulaire, et a ne pas me rafraichir la page.
+    // e.preventDefault qui empeche le rafraichissement de la page a la validation du formulaire.
+
     e.preventDefault();
     // ici j'instanci une nouvelle regex, qui va me permettre de valider les adresse mails et aussi pour la quantité de tournoi deja fais.
     let mailformat = new RegExp(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/);
